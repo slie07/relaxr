@@ -1,0 +1,159 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  width: 280px;
+  padding: 12px 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+section {
+  padding: 35px 0;
+}
+
+header {
+  padding: 100px;
+  background: url("../images/header_bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  overflow: auto; /* added this so header would respect a.button's margin-bottom */
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+header .logo {
+  margin-bottom: 100px;
+}
+
+header h2 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header a.button {
+  background: #f9e42e;
+  color: #121212;
+  margin-bottom: 100px; /* required I add overflow: auto; to header */
+}
+
+section#benefits {
+  background: white;
+  color: #606161;
+  font-weight: 100;
+  font-size: 24px;
+  padding: 50px 200px;
+}
+
+section#benefits p {
+  width: 500px;
+}
+
+section#benefits ul {
+  width: 600px;
+  margin-left: 50px;
+}
+
+section#quote {
+  background: url("../images/testimonial_bg.jpg")  no-repeat center center fixed;
+  -webkit-background-size: cover; /* these are special syntax for each browser - all do the same thing though */ 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-weight: 200;
+  font-size: 36px;
+  padding: 50px 310px;
+  text-align: center;
+}
+
+section#quote blockquote {
+  font-style: italic;
+}
+
+section#quote blockquote span {
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+}
+
+section#cta {
+  background: #f9e42e;
+}
+
+section#cta a {
+  background: #033048;
+  color: white;
+}
+
+footer {
+  background: #121212;
+  color: white;
+  font-weight: 200;
+  font-size: 28px;
+  padding: 50px;
+  text-align: center;
+}
+
+footer nav {
+  margin-bottom: 50px;
+}
+
+footer nav a {
+  padding: 20px;
+}
+
+footer .logo {
+  color: yellow;
+  margin-bottom: 50px;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
